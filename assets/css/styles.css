@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h2:hover {
+    color:rgb(2, 133, 185);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+img.profile:hover{
+    transform: scale(1.05);
+    transition: ease-in 0.2s;
+}
+
+#contacts{
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    max-width: 100%;
+    margin: 1rem auto;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover {
+    color: rgb(2, 133, 185);
+}
+
+.card {
+    display: flex;
+    width: 100%;
+}
+.profile {
+    max-height: 30%;
+    border: 5px solid rgb(2, 133, 185);
+    border-radius: 15%;
+}
